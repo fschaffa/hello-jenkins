@@ -1,4 +1,5 @@
-sh app@198.211.110.55 <<EOF
+#!/bin/sh
+ssh app@198.211.110.55 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
